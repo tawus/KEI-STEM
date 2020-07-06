@@ -57,5 +57,5 @@
   (let* ([url  (create-url word language)]
          [config (if (null? config) (load-config CONFIG_FILE) config)]
          [json (get-json url (app-config-credentials config))])
-    (describe json)))
+    json))
 
