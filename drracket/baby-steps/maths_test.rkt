@@ -34,6 +34,9 @@
 (check-expect (maximum 7 6) 7)
 (check-expect (maximum -5 10) 10)
 
+(check-within (celsius->fahrenheit 37) 98.6 0.01)
+(check-within (fahrenheit->celsius 98.6) 37 0.01)
+
 (check-within (simple-interest 1000 0.10 5) 500.0 0.0001)
 (check-expect (simple-interest 200 0.20 0) 0)
 

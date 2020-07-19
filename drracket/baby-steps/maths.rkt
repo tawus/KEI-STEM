@@ -4,7 +4,9 @@
          positive? negative?
          circle-area
          minimum maximum
-         simple-interest compound-interest)
+         simple-interest compound-interest
+         celsius->fahrenheit
+         fahrenheit->celsius)
 
 (define (square x)
   (* x x))
@@ -32,6 +34,13 @@
 
 (define (maximum x y)
   (if (> x y) x y))
+
+(define (celsius->fahrenheit c)
+  (+ (* c (/ 180 100)) 32))
+
+(define (fahrenheit->celsius f)
+  (* (- f 32) (/ 100 180)))
+
 
 (define (simple-interest principal rate time)
   (* principal time rate))
