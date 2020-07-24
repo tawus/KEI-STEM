@@ -1,0 +1,7 @@
+
+   {
+    "credentials": {
+        "app-key": "77588cd4d096e8f7e34c4cd2811dc4aa",
+        "app-id": "235c4359"
+    }
+}
