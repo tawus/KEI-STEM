@@ -5,10 +5,10 @@
 ;;
 
 ;;
-;; Calculate Ackermann function for a given value `n`
+;; Calculate Ackermann function for a given value `n` and `m`
 ;; https://en.wikipedia.org/wiki/Ackermann_function
 ;;
-(define (ackermann n)
+(define (ackermann n m)
   0)
 
 ;;
